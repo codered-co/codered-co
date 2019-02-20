@@ -1,9 +1,9 @@
 left_links:
-  - name: Blog
+  - name: Eventos
     link: /blog/
-  - name: About
+  - name: Código de Conduta
     link: /about/
-  - name: Contact
+  - name: Quem Somos
     link: /contact/
 right_links:
   - name:

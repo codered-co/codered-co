@@ -219,3 +219,15 @@ blockquote:before {
 .cms-editor-active .editor-link {
 	display: block;
 }
+
+.sponsers{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	min-height: 100px;
+	background: black;
+	color: white;
+	.sponsers-title{
+		text-align: center;
+		padding: 10px;
+	}
+}

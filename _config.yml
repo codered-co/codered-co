@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Frisco Template
+title: Codered
 url: "https://brave-submarine.cloudvent.net"
 baseurl:
 google_analytics_key:
@@ -9,7 +9,7 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
+logo: images/logo/codered.png
 description: App marketing template for Jekyll.
 author:
   name:

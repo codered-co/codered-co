@@ -1,6 +1,6 @@
 - name: Eventos
-  link: /blog/
-- name: Código de Conduta
-  link: /about/
+  link: /eventos/
 - name: Quem Somos
-  link: /contact/
+  link: /quemsomos/
+- name: contato
+  link: /contato/

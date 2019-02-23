@@ -12,8 +12,15 @@
 	max-width: 1140px;
 }
 
+.light-logo {
+	img{
+		min-height: 60px;
+	}
+}
+
 .dark-logo {
 	display: none;
+	min-height: 60px;
 }
 
 section {
@@ -34,6 +41,11 @@ header {
 
 	.container {
 		line-height: 0;
+		display: flex;
+		align-items: center;
+		nav{
+			margin-top: 2vh;
+		}
 	}
 
 	&.header-background {
@@ -55,6 +67,9 @@ header {
 
 		.dark-logo {
 			display: inline;
+			img{
+				min-height: 60px;
+			}
 		}
 
 		.light-logo {
@@ -238,6 +253,12 @@ blockquote:before {
 		justify-content: center;
 		align-items: center;
 	}
+}
+
+#conduta{
+	text-align: justify;
+	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 

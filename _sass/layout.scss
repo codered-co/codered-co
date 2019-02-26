@@ -26,9 +26,23 @@
 section {
 	background: #fff;
 }
-
+#custom-pad{
+	padding-top: 10vh;
+}
+.events{
+    min-height: 85vh;
+    padding-top: 8vh;
+}
+#mainHeader{
+	.container{
+		max-height: 2vw;
+	}
+}
 .pad {
 	padding: 60px 0;
+	.container{
+		margin-top: 5vw;
+	}
 }
 
 header {

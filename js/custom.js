@@ -1,2 +1,1 @@
-console.log($('#container'));
-$('#mainHeader').addClass("header-background");
+$("#mainHeader").addClass('header-background');

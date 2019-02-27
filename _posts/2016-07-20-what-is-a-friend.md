@@ -2,10 +2,13 @@
 title: Introdução ao desenvolvimento Web
 date: 16-02-2019
 categories:
-  - friends
-image: https://source.unsplash.com/collection/375719/2000x1322?a=.png
-instructor_image: https://source.unsplash.com/BcoGknSqlDc/2000x1322?a=.png
-instructor_name: Eduardo
+  - Iniciantes
+  - Frontend
+  - HTML e CSS
+image: /images/events/00-cover.png
+instructor_image: /images/instructors/eduardo.jpeg
+instructor_name: Eduardo Santos
+instructor_contact: https://www.linkedin.com/in/e3duardo/
 ---
 Friendship is a relationship of mutual affection between people. Friendship is a stronger form of interpersonal bond than an association. Friendship has been studied in academic fields such as sociology, social psychology, anthropology, and philosophy. Various academic theories of friendship have been proposed, including social exchange theory, equity theory, relational dialectics, and attachment styles. A World Happiness Database study found that people with close friendships are happier.
 

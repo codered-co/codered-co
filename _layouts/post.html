@@ -8,7 +8,13 @@ layout: page
 		{% include post-title.html post=page %}
 
 		<div class="post-content">
+
 			{{ content }}
+
+			<div class="instructors">
+				<div class="square-image" style="background-image: url({{page.instructor_image}})"></div>
+				<div class="instructor_name">Instrutor:&nbsp;<a href="{{page.instructor_contact}}" target="_blank">{{page.instructor_name}}</a></div>
+			</div>
 
 			<div class="blog-navigation">
 				{% if page.previous.url %}

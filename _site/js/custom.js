@@ -1,0 +1,1 @@
+$("#mainHeader").addClass('header-background');

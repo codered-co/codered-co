@@ -1,6 +1,8 @@
 .nav-open nav {
 	border-bottom: 1px dotted rgba(255, 255, 255, .2);
-	padding: 10px 0;
+	background-color: white;
+	padding: 10px;
+	top: 110px;
 	a {
 		display: block;
 		padding: 30px 0;
@@ -23,6 +25,7 @@ nav {
 	position: relative;
 	top: -7px;
 	text-shadow: none;
+	transition: ease-in .35s;
 
 	@media #{$mid-point} {
 		padding: 0 20px;
@@ -42,12 +45,18 @@ nav {
 			color: rgba(255,255,255,.8);
 		}
 
+	}
 
-		&.nav-toggle {
+	a.active {
+		border-bottom: 5px solid #ffa74d;
+	}
+
+}
+
+.nav-toggle {
 			display: inline;
 			position: absolute;
 			right: 10px;
-			top: -7px;
 			font-size: 1.9em;
 			border: 0;
 			text-shadow: 0;
@@ -60,10 +69,3 @@ nav {
 				border: 0;
 			}
 		}
-	}
-
-	a.active {
-		border-bottom: 5px solid #ffa74d;
-	}
-
-}

@@ -58,12 +58,11 @@ p, address, ul {
 .hero {
   color: #ffffff;
   text-align: center;
-  height: 100vh;
-  min-height: 550px;
   background-color: #333;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+  padding-top: 50px; }
   .hero:before {
     content: "";
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0, rgba(0, 0, 0, 0) 100%);
@@ -77,9 +76,11 @@ p, address, ul {
   .hero .inner-hero {
     display: flex;
     align-items: center;
-    height: 100%; }
+    position: absolute;
+    padding-top: 20%;
+    padding-left: 10%;
+    z-index: 1; }
   .hero .hero-text-container {
-    width: 600px;
     text-align: left; }
     .hero .hero-text-container h1, .hero .hero-text-container h2, .hero .hero-text-container p, .hero .hero-text-container .button {
       text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8); }
@@ -111,6 +112,11 @@ p, address, ul {
 
   .content section:nth-child(even) .flex {
     flex-direction: row-reverse; } }
+@media (max-width: 755px) {
+  .inner-hero {
+    font-size: 10px;
+    padding-top: 0px !important;
+    padding-left: 20px !important; } }
 .container, .text-container {
   margin: 0 auto;
   position: relative;
@@ -254,22 +260,6 @@ blockquote:before {
 .center-text {
   text-align: center; }
 
-.learn-more {
-  position: absolute;
-  left: 0;
-  bottom: 30px;
-  text-align: center;
-  font-size: 1.4em;
-  width: 100%; }
-  .learn-more a {
-    text-decoration: none;
-    color: #fff;
-    opacity: .9; }
-    .learn-more a:hover {
-      opacity: 1; }
-  .learn-more .arrow {
-    font-size: .6em; }
-
 .editor-link {
   display: none;
   margin-top: 0;
@@ -336,6 +326,10 @@ blockquote:before {
 #archive {
   min-height: 90vh;
   padding-top: 5vw; }
+
+.hero-video {
+  width: 100%;
+  z-index: -1; }
 
 .staff {
   padding: 0;

@@ -564,7 +564,9 @@ input[type=text]:focus, input[type=email]:focus, input[type=password]:focus, tex
 
 .nav-open nav {
   border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
-  padding: 10px 0; }
+  background-color: white;
+  padding: 10px;
+  top: 110px; }
   .nav-open nav a {
     display: block;
     padding: 30px 0; }
@@ -581,7 +583,8 @@ nav {
   width: 100%;
   position: relative;
   top: -7px;
-  text-shadow: none; }
+  text-shadow: none;
+  transition: ease-in .35s; }
   @media (min-width: 620px) {
     nav {
       padding: 0 20px;
@@ -596,22 +599,22 @@ nav {
         display: inline;
         border-bottom: 1px solid rgba(255, 255, 255, 0);
         color: rgba(255, 255, 255, 0.8); } }
-    nav a.nav-toggle {
-      display: inline;
-      position: absolute;
-      right: 10px;
-      top: -7px;
-      font-size: 1.9em;
-      border: 0;
-      text-shadow: 0;
-      padding: 0 !important; }
-      @media (min-width: 620px) {
-        nav a.nav-toggle {
-          display: none; } }
-      nav a.nav-toggle:hover {
-        border: 0; }
   nav a.active {
     border-bottom: 5px solid #ffa74d; }
+
+.nav-toggle {
+  display: inline;
+  position: absolute;
+  right: 10px;
+  font-size: 1.9em;
+  border: 0;
+  text-shadow: 0;
+  padding: 0 !important; }
+  @media (min-width: 620px) {
+    .nav-toggle {
+      display: none; } }
+  .nav-toggle:hover {
+    border: 0; }
 
 footer {
   font-size: .6em;

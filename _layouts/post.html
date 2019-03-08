@@ -20,22 +20,12 @@ layout: page
 				<div class="instructor_name">Instrutor:&nbsp;<a href="{{page.instructor_contact}}" target="_blank">{{page.instructor_name}}</a></div>
 			</div>
 
-<!-- 
-			<div class="blog-navigation">
-				{% if page.previous.url %}
-					<a class="prev" href="{% include relative-src.html src=page.previous.url %}">&laquo; {{ page.previous.title }}</a>
-				{% endif %}
-				{% if page.next.url %}
-					<a class="next" href="{% include relative-src.html src=page.next.url %}">{{ page.next.title }} &raquo;</a>
-				{% endif %}
-			</div> -->
-
 			<div id="disqus_thread"></div>
 
 			<script>
 				(function() {
 				var d = document, s = d.createElement('script');
-				s.src = 'https://perkles.disqus.com/embed.js';
+				s.src = 'https://codered-online.disqus.com/embed.js';
 				s.setAttribute('data-timestamp', +new Date());
 				(d.head || d.body).appendChild(s);
 				})();

@@ -1,8 +1,10 @@
 .nav-open nav {
 	border-bottom: 1px dotted rgba(255, 255, 255, .2);
 	background-color: white;
-	padding: 10px;
-	top: 110px;
+	padding-left: 10px;
+	position: absolute;
+	margin-top: 28px !important;
+	left: 0px;
 	a {
 		display: block;
 		padding: 30px 0;

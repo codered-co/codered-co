@@ -497,6 +497,9 @@ blockquote:before {
   min-width: 85%;
   text-align: center; }
 
+.event_post {
+  min-height: 50vw; }
+
 .button a, input[type=submit] {
   color: #6ba1f3;
   text-decoration: none;

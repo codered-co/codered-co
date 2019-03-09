@@ -12,6 +12,7 @@ instructor_image: /images/instructors/eduardo.jpeg
 instructor_name: Eduardo Santos
 instructor_contact: https://www.linkedin.com/in/e3duardo/
 inscription_form: https://goo.gl/forms/BeFM58vol6v5RR3D2
+files: /images/files/Piroll.rar
 ---
 
 HTML e CSS são a base de toda aplicação web, neste bootcamp vamos aprender de forma prática através da criação de um website o que são essas linguagens de marcação, HTML semântico, organização e estruturação de arquivos CSS e até mesmo um pouquinho de optimização de código.
@@ -40,6 +41,10 @@ Trabalhamos também com uma metodologia de sincronia a cada uma hora. Então se 
 
 Não existem pré requisitos. Esse é um evento voltado para o público **iniciante**, logo saber ligar o computador já lhe qualifica.
 Embora não existam pré requisitos intelectuais, é recomendado que você **traga seu próprio notebook**. Iremos disponibilizar alguns para o uso no evento, mas eles possuem limitações de bateria.
+
+E para que você fique preparado na hora do evento, nao se esqueça de **instalar o editor de código** de sua preferencia, como: [Sublime](https://www.sublimetext.com/3) ou o [Atom](https://atom.io/).
+
+Você pode conferir o guia do que iremos fazer **baixando [esses]({{page.files}}) arquivos**. Também é recomendado que vc **os tenha em seu computador** no dia.
 
 # Inscreva-se
 

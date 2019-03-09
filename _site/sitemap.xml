@@ -18,10 +18,10 @@
 <loc>http://localhost:4000/contato/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>http://localhost:4000/eventos/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/eventos/</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/quemsomos/</loc>

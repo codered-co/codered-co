@@ -4,5 +4,8 @@
 			<a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category | capitalize }}</a>
 		</span>
 	{% endfor %}
-	<span class="post-date"> Data do evento: {{ post.event_date }} {{ page.event_date }} </span>
+	
+	{% if post.status == 'open' %}
+		<span class="post-date"> Data do evento: {{ post.event_date }} {{ page.event_date }} </span>
+	{% endif %}
 </p>

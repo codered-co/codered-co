@@ -9,7 +9,7 @@ left_links:
     link: /codigoconduta/
 right_links:
   - name:
-    link: https://facebook.com/
+    link: https://facebook.com/coderedsi
     new_window: true
     social_icon: Facebook
   - name:
@@ -17,6 +17,10 @@ right_links:
     social_icon: Twitter
     new_window: true
   - name:
-    link: https://youtube.com/
-    social_icon: YouTube
+    link: https://www.linkedin.com/in/code-red-840b74174
+    social_icon: LinkedIn
+    new_window: true
+  - name:
+    link: https://www.instagram.com/codered.insta
+    social_icon: Instagram
     new_window: true

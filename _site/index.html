@@ -29,6 +29,7 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300|Rubik:300">
 		<link rel="stylesheet" href="/css/screen.css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 		
 	</head>
@@ -94,7 +95,7 @@
 <div class="content">
 	<section class="info" id="learn-more">
 		<div class="container flex">
-			<div class="text">
+			<div class="text" data-aos="fade-right" data-aos-duration="1000">
 				<h2 class="editable">Bootcamps</h2>
 				<p class="editable">Aprenda de forma prática e intensiva participando de um de nossos Bootcamps. Desperte a vontade de aprender de forma colaborativa.</p>
 			</div>
@@ -106,7 +107,7 @@
 
 	<section class="info">
 		<div class="container flex">
-			<div class="text">
+			<div class="text" data-aos="fade-left" data-aos-duration="1000">
 				<h2 class="editable">Coding dojo</h2>
 				<p class="editable">Participe de desafios lógicos seguindo a metodologia de Coding-dojo. A sala de aula é seu tatame e o mercado de trabalho a sua batalha.</p>
 			</div>
@@ -118,7 +119,7 @@
 
 	<section class="info">
 		<div class="container flex">
-			<div class="text">
+			<div class="text" data-aos="fade-right" data-aos-duration="1000">
 				<h2 class="editable">Hackathons</h2>
 				<p class="editable">Mostre suas competencias de trabalho em equipe e solução de problemas para empresas, ganhe reconhecimento e prêmios</p>
 			</div>
@@ -229,5 +230,9 @@
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script src="/js/custom.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
 	</body>
 </html>

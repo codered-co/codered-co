@@ -1,12 +1,12 @@
 left_links:
   - name: Eventos
-    link: /eventos/
+    link: /eventos
   - name: Quem Somos
-    link: /quemsomos/
+    link: /quemsomos
   - name: Contato
-    link: /contato/
+    link: /contato
   - name: Codigo de conduta
-    link: /codigoconduta/
+    link: /codigoconduta
 right_links:
   - name:
     link: https://facebook.com/coderedsi

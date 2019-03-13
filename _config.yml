@@ -2,7 +2,7 @@
 # Site
 
 title: Codered
-url: "https://brave-submarine.cloudvent.net"
+url: "http://codered.online"
 baseurl:
 google_analytics_key: UA-135295857-1
 google_maps_javascript_api_key:
@@ -10,29 +10,28 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: images/logo/codered.png
-description: App marketing template for Jekyll.
+description: Somos uma comunidade empenhada em criar um ambiente saudável, instigante e divertido onde todos podem aprender a programar.
 author:
   name:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Frisco Template
+  name: CodeRED
   links:
-    - https://github.com/CloudCannon/frisco-jekyll-template
+    - http://codered.online
 
 # -----
 # Build
 
 timezone: Etc/UTC
 
-permalink: pretty
+permalink: eventos/:slug
 
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-archives
 
 exclude:
   - Gemfile
@@ -45,10 +44,7 @@ collections:
     _hide_content: true
 
 paginate: 10
-paginate_path: "/eventos/:num/"
-
-jekyll-archives:
-  enabled: ['categories']
+paginate_path: "/eventos/:num"
 
 defaults:
   -

@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section class="hero event_post" style="background-image: url({% include relative-src.html src=page.image %})">
+<section class="hero event_post" style="background-image: url({{ page.image | relative_url }} )">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
 		</div>
@@ -10,5 +10,3 @@ layout: default
 </section>
 
 {{ content }}
-
-

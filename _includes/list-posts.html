@@ -1,7 +1,7 @@
 {% for post in include.posts %}
 	<li class="blog-post">
 		{% if post.status == 'open' %}
-			<h2><a href="{% include relative-src.html src=post.url %}">{{ post.title }}</a></h2>
+			<h2><a href="{{ post.url | relative_url }} ">{{ post.title }}</a></h2>
 		{% else %}
 			<h2>{{ post.title }}</h2>
 		{% endif %}
@@ -11,7 +11,7 @@
 			{{ post.excerpt }}
 
 			{% if post.status == 'open' %}
-				<div class="button"><a href="{% include relative-src.html src=post.url %}">Saiba Mais</a></div>
+				<div class="button"><a href="{{ post.url | relative_url }} ">Saiba Mais</a></div>
 			{% else %}
 				<div class="deactivated"><a href="">Em Breve</a></div>
 			{% endif %}

@@ -1,10 +1,10 @@
 <p class="post-details">
 	{% for category in include.post.categories %}
 		<span class="blog-filter">
-			<a href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category | capitalize }}</a>
+			<a href="{{ site.baseurl }}{{ category | slugify }}">{{ category | capitalize }}</a>
 		</span>
 	{% endfor %}
-	
+
 	{% if post.status == 'open' %}
 		<span class="post-date"> Data do evento: {{ post.event_date }} {{ page.event_date }} </span>
 	{% endif %}

@@ -32,7 +32,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-paginate
-  - jekyll-archives
 
 exclude:
   - Gemfile
@@ -46,9 +45,6 @@ collections:
 
 paginate: 10
 paginate_path: "/eventos/:num/"
-
-jekyll-archives:
-  enabled: ['categories']
 
 defaults:
   -

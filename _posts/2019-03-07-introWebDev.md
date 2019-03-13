@@ -25,7 +25,7 @@ Um Bootcamp é um evento de média duração que visa a realização de uma tare
  - Em seguida acha-se um bom instrutor: Eduardo Santos;
  - E por último da-le um local e tempo para ensinar;
 
-O bootcamp: 'Introdução ao desenvolvimento Web' ocorrerá no dia **23 de março** na **UniRedentor**, no **ateliê 06** (segundo andar) **das 8 da manhã**, tendo uma pausa de uma hora para almoço ao meio dia, **até às 16:20**.
+O bootcamp: 'Introdução ao desenvolvimento Web' ocorrerá no dia **23 de março** na **UniRedentor**, **das 8 da manhã**, tendo uma pausa de uma hora para almoço ao meio dia, **até às 16:20**.
 
 # Como vai funcionar ?
 

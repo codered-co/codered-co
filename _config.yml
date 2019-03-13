@@ -32,12 +32,14 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-archives
 
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
   - LICENCE
+  - vendor
 
 collections:
   staff_members:
@@ -84,6 +86,10 @@ defaults:
         height: 1322
         resize_style: cover
 
+jekyll-archives:
+  enabled: ['categories']
+  permalinks:
+     category: '/categorias/:name/'
 # -----------
 # CloudCannon
 

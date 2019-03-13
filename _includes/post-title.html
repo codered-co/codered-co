@@ -1,7 +1,7 @@
 <p class="post-details">
 	{% for category in include.post.categories %}
 		<span class="blog-filter">
-			<a href="javascript:void(0);">{{ category | capitalize }}</a>
+			<a href="{{ site.baseurl }}/categorias/{{ category | slugify }}/">{{ category | capitalize }}</a>
 		</span>
 	{% endfor %}
 

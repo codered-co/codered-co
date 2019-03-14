@@ -2,7 +2,7 @@
 # Site
 
 title: Codered
-url: "http://codered.online"
+url: "https://codered.online"
 baseurl:
 google_analytics_key: UA-135295857-1
 google_maps_javascript_api_key:
@@ -18,7 +18,7 @@ author:
 social:
   name: CodeRED
   links:
-    - http://codered.online
+    - https://codered.online
 
 # -----
 # Build

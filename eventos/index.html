@@ -13,13 +13,13 @@ description: Conheça nossos eventos.
 		{% if paginator.total_pages > 1 %}
 			<div class="pagination">
 				{% if paginator.previous_page %}
-					<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Newer posts</a>
+					<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Eventos recentes</a>
 				{% endif %}
 
 				<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
 
 				{% if paginator.next_page %}
-					<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Older posts &rarr;</a>
+					<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Eventos antigos &rarr;</a>
 				{% endif %}
 			</div>
 		{% endif %}

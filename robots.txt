@@ -1,6 +1,2 @@
----
-layout: null
-sitemap: false
----
 User-agent: *
-Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: http://codered.online/sitemap.xml

@@ -23,6 +23,11 @@ social:
 # -----
 # Build
 
+jekyll-archives:
+  enabled: ['categories']
+  permalinks:
+     category: '/categorias/:name/'
+
 timezone: Etc/UTC
 
 permalink: eventos/:slug
@@ -86,10 +91,6 @@ defaults:
         height: 1322
         resize_style: cover
 
-jekyll-archives:
-  enabled: ['categories']
-  permalinks:
-     category: '/categorias/:name/'
 # -----------
 # CloudCannon
 

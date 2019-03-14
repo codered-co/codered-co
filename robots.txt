@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://codered.online/sitemap.xml
+Sitemap: https://codered.online/sitemap.xml

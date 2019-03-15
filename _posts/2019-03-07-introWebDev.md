@@ -23,9 +23,9 @@ Um Bootcamp é um evento de média duração que visa a realização de uma tare
 
  - Primeiro pega-se um problema: 'Aprender HTML e CSS';
  - Em seguida acha-se um bom instrutor: Eduardo Santos;
- - E por último da-le um local e tempo para ensinar;
+ - E por último da-lê um local e tempo para ensinar;
 
-O bootcamp: 'Introdução ao desenvolvimento Web' ocorrerá no dia **23 de março** na **UniRedentor**, **das 8 da manhã**, tendo uma pausa de uma hora para almoço ao meio dia, **até às 16:20**.
+O bootcamp: 'Introdução ao desenvolvimento Web' ocorrerá no dia **23 de março** na **UniRedentor**, **das 8 da manhã**, tendo uma pausa de uma hora para almoço ao meio dia, **até às 17:00**.
 
 # Como vai funcionar ?
 
@@ -42,9 +42,9 @@ Trabalhamos também com uma metodologia de sincronia a cada uma hora. Então se 
 Não existem pré requisitos. Esse é um evento voltado para o público **iniciante**, logo saber ligar o computador já lhe qualifica.
 Embora não existam pré requisitos intelectuais, é recomendado que você **traga seu próprio notebook**. Iremos disponibilizar alguns para o uso no evento, mas eles possuem limitações de bateria.
 
-E para que você fique preparado na hora do evento, nao se esqueça de **instalar o editor de código** de sua preferencia, como: [Sublime](https://www.sublimetext.com/3) ou o [Atom](https://atom.io/).
+E para que você fique preparado na hora do evento, não se esqueça de **instalar o editor de código** de sua preferencia, como: [Sublime](https://www.sublimetext.com/3) ou o [Atom](https://atom.io/).
 
-Você pode conferir o guia do que iremos fazer **baixando [esses]({{page.files}}) arquivos**. Também é recomendado que vc **os tenha em seu computador** no dia.
+Você pode conferir o guia do que iremos fazer **baixando [esses]({{page.files}}) arquivos**. Também é recomendado que você **os tenha em seu computador** no dia.
 
 # Inscreva-se
 
@@ -52,7 +52,6 @@ A inscrição tem o valor simbólico de 5R$ e será concluída mediante ao preen
 
 # Rodada BÔNUS
 
-No final do evento você participará de um quiz interativo e o melhor colocado ganhará um vale presente da [Casa do códio](https://www.casadocodigo.com.br/collections/front-end-html-e-css) que pode ser usado para comprar e-books que complementarão e darão reenforço ao conteudo aprendido no bootcamp como: [CSS Eficiente](https://www.casadocodigo.com.br/products/livro-css-eficiente), [Web Design Responsivo](https://www.casadocodigo.com.br/products/livro-web-design-responsivo) e ate mesmo [HTML5 e CSS3](https://www.casadocodigo.com.br/products/livro-html-css).
+No final do evento você participará de um quiz interativo e o melhor colocado ganhará um vale presente da [Casa do código](https://www.casadocodigo.com.br/collections/front-end-html-e-css) que pode ser usado para comprar e-books que complementarão e darão reforço ao conteúdo aprendido no bootcamp como: [CSS Eficiente](https://www.casadocodigo.com.br/products/livro-css-eficiente), [Web Design Responsivo](https://www.casadocodigo.com.br/products/livro-web-design-responsivo) e até mesmo [HTML5 e CSS3](https://www.casadocodigo.com.br/products/livro-html-css).
 
 Não dá mole não, se inscreve **logo** !
-

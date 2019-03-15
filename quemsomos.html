@@ -1,21 +1,36 @@
 ---
 title: Quem Somos
-description: We've built an amazing team of developers, marketers, designers and sales people.
+description: Somos uma comunidade em torno de um único objetivo ajudar outros programadores e promover eventos.
 ---
 
 <section class="pad">
 	<div class="container">
 		<div class="about-description">
 			<h1>Nós somos a Codered.</h1>
-			<p>Reunidos aqui nessa singela página se encontram os membros constituintes da nossa comunidade. Sim, somos uma comunidade pois somos uma reunião de pessoas unidas em torno de um único objetivo <strong>ajudar outros programadores e promover eventos.</strong></p>
+			<p>Reunidos aqui nessa singela página se encontram os membros e colaboradores da nossa comunidade. Somos uma comunidade unida em torno de um único objetivo <strong>ajudar outros programadores e promover eventos.</strong></p>
 			<p>Não temos fins lucrativos, todo o dinheiro arrecadado é convertido em benefícios para os participantes de nossos eventos e/ou no bem estar dos mesmos. Para que tudo ocorra da melhor forma possível, vale a pena dar uma lida em nosso <a href="{{ site.baseurl }}/codigoconduta">código de conduta.</a></p>
 		</div>
-		<p class="editor-link"><a href="cloudcannon:collections/_staff_members" class="btn"><strong>&#9998;</strong> Manage Staff Members</a></p>
+		<h2>Membros</h2>
 		<ul class="staff">
 			{% for person in site.staff_members %}
 				<li>
-					<div class="square-image" style="background-image: url({{ person.image_path | relative_url }} )"></div>
-					<div class="name"><a target="_blank" href="{{person.social_network}}">{{ person.name }}</a></div>
+					<div class="square-image" style="background-image: url({{ person.image_path | relative_url }} )">
+						<div class="name">
+							<a target="_blank" href="{{person.social_network}}">{{ person.name }}</a>
+						</div>
+					</div>
+				</li>
+			{% endfor %}
+		</ul>
+		<h2>Colaboradores</h2>
+		<ul class="staff">
+			{% for person in site.collaborative_members %}
+				<li>
+					<div class="square-image" style="background-image: url({{ person.image_path | relative_url }} )">
+						<div class="name">
+							<a target="_blank" href="{{person.social_network}}">{{ person.name }}</a>
+						</div>
+					</div>
 				</li>
 			{% endfor %}
 		</ul>

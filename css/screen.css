@@ -247,12 +247,26 @@ blockquote:before {
   vertical-align: -0.4em; }
 
 .square-image {
-  width: 200px;
-  height: 200px;
-  border-radius: 200px;
+  width: 170px;
+  height: 170px;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 0 auto; }
+  margin: 0 auto;
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 0px solid #000000; }
+  .square-image .name a {
+    display: none; }
+  .square-image:hover .name a {
+    display: block; }
+    .square-image:hover .name a:hover {
+      background-color: rgba(14, 98, 170, 0.74);
+      border-radius: 200px 200px 200px 200px;
+      -moz-border-radius: 200px 200px 200px 200px;
+      -webkit-border-radius: 200px 200px 200px 200px;
+      border: 0px solid #000000;
+      color: #d0d0d0; }
 
 .page {
   margin-bottom: 0;
@@ -333,7 +347,6 @@ blockquote:before {
   z-index: -1; }
 
 .staff {
-  padding: 0;
   margin: 0;
   list-style: none;
   -webkit-flex-flow: wrap;
@@ -344,25 +357,16 @@ blockquote:before {
   .staff li {
     padding: 30px 20px;
     box-sizing: border-box;
-    width: 100%; }
-    @media (min-width: 450px) {
-      .staff li {
-        -webkit-box-flex: 1;
-        -webkit-flex: 1 1 50%;
-        -moz-box-flex: 1;
-        -moz-flex: 1 1 50%;
-        -ms-flex: 1 1 50%;
-        flex: 1 1 50%; } }
-    @media (min-width: 768px) {
-      .staff li {
-        -webkit-box-flex: 1;
-        -webkit-flex: 1 1 33%;
-        -moz-box-flex: 1;
-        -moz-flex: 1 1 33%;
-        -ms-flex: 1 1 33%;
-        flex: 1 1 33%; } }
+    /*
+    		@media (min-width: 450px) {
+    			@include flex(1, 1, 50%);
+    		}*/
+    /*
+    		@media (min-width: 768px) {
+    			@include flex(1, 1, 33%);
+    		}*/ }
   .staff .name {
-    margin-top: 20px; }
+    line-height: 170px; }
   .staff .position {
     color: #666;
     font-size: .8em; }

@@ -11,9 +11,15 @@ layout: page
 
 			{{ content }}
 
-			<div class="button large">
-				<a href="{{page.inscription_form}}" target="_blank">Inscreva-se</a>
-			</div>
+			{% if post.allow_inscription == 'no' %}
+				<div class="button large">
+					<a href="{{page.inscription_form}}" target="_blank">Inscreva-se</a>
+				</div>
+			{% else %}
+				<div class="deactivated large">
+					<div class="deactivated"><a href="">Encerrado</a></div>
+				</div>
+			{% endif %}
 
 			<div class="instructors">
 				<div class="square-image" style="background-image: url({{page.instructor_image}})"></div>

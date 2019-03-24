@@ -12,6 +12,7 @@ instructor_image: /images/instructors/eduardo.jpeg
 instructor_name: Eduardo Santos
 instructor_contact: https://www.linkedin.com/in/e3duardo/
 inscription_form: https://goo.gl/forms/BeFM58vol6v5RR3D2
+allow_inscription: no
 files: /images/files/Piroll.rar
 ---
 

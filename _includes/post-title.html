@@ -5,7 +5,9 @@
 		</span>
 	{% endfor %}
 
-	{% if post.status == 'open' %}
-		<span class="post-date"> Data do evento: {{ post.event_date }} {{ page.event_date }} </span>
-	{% endif %}
+	<span class="post-date"> 
+		Autor: {{page.author_name}} {{post.author_name}} — 
+		Data: {{ page.date | date: "%m-%d-%Y"}} {{ post.date | date: "%m-%d-%Y" }} 
+	</span>
+
 </p>

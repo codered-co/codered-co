@@ -1,25 +1,25 @@
 ---
-title: Eventos
+title: Blog
 description: Conheça nossos eventos.
 ---
 
 <section class="events">
 	<div class="text-container">
 
-		<article class="event-box">
-			{% include list-events.html posts=paginator.posts %}
-		</article>
+		<ul class="blog-posts">
+			{% include list-posts.html posts=paginator.posts %}
+		</ul>
 
 		{% if paginator.total_pages > 1 %}
 			<div class="pagination">
 				{% if paginator.previous_page %}
-					<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Eventos recentes</a>
+					<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Posts recentes</a>
 				{% endif %}
 
 				<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
 
 				{% if paginator.next_page %}
-					<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Eventos antigos &rarr;</a>
+					<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Posts antigos &rarr;</a>
 				{% endif %}
 			</div>
 		{% endif %}

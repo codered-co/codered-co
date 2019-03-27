@@ -1,5 +1,7 @@
 ---
-title: Introdução ao desenvolvimento Web
+layout: event
+title: Introdução ao Dev. Web
+slogan: Entendendo a internet
 date: 08-03-2019
 event_date: 23/03/2019
 categories:
@@ -8,6 +10,8 @@ categories:
   - HTML e CSS
 status: open
 image: /images/events/00-cover.png
+image_card: /images/events/00-card.png
+card_hexa: 32736d
 instructor_image: /images/instructors/eduardo.jpeg
 instructor_name: Eduardo Santos
 instructor_contact: https://www.linkedin.com/in/e3duardo/
@@ -16,7 +20,7 @@ allow_inscription: no
 files: /images/files/Piroll.rar
 ---
 
-HTML e CSS são a base de toda aplicação web, neste bootcamp vamos aprender de forma prática através da criação de um website o que são essas linguagens de marcação, HTML semântico, organização e estruturação de arquivos CSS e até mesmo um pouquinho de optimização de código.
+HTML e CSS são a base de toda aplicação web, vamos aprender de forma prática através da criação de um website o que são essas 'linguagens' e como as aplicamos no dia a dia.
 
 # O evento
 

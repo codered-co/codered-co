@@ -1,0 +1,53 @@
+---
+layout: page
+---
+
+<section>
+	<div class="blog-post text-container">
+
+		<p class="post-details">
+			<span class="post-date">
+				Data: {{ page.event_date }}
+			</span>
+		</p>
+
+		<div class="post-content">
+
+			{{ content }}
+
+			{% if page.allow_inscription == "no" %}
+				<div class="button large">
+					<a href="{{page.inscription_form}}" target="_blank">Inscreva-se</a>
+				</div>
+			{% elsif page.allow_inscription == "waiting" %}
+				<div class="waiting large">
+					<a href="{{page.inscription_form}}" target="_blank">Aguardando período de Inscrição</a>
+				</div>
+			{% else %}
+				<div class="deactivated large">
+					<div class="deactivated"><a href="">Encerrado</a></div>
+				</div>
+			{% endif %}
+
+			<div class="instructors">
+				<div class="square-image" style="background-image: url({{page.instructor_image}})"></div>
+				<div class="instructor_name">Instrutor:&nbsp;<a href="{{page.instructor_contact}}" target="_blank">{{page.instructor_name}}</a></div>
+			</div>
+
+			<div id="disqus_thread"></div>
+
+			<script>
+				(function() {
+				var d = document, s = d.createElement('script');
+				s.src = 'https://codered-online.disqus.com/embed.js';
+				s.setAttribute('data-timestamp', +new Date());
+				(d.head || d.body).appendChild(s);
+				})();
+			</script>
+			<noscript>
+				Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+			</noscript>
+
+		</div>
+	</div>
+</section>

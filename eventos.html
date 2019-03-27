@@ -1,14 +1,15 @@
 ---
 title: Eventos
-description: Conheça nossos eventos.
+description: Confira todos os eventos realizados por nossa comunidade.
 ---
 
 <section class="events">
 	<div class="text-container">
+		<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Post</a></p>
 
-		<article class="event-box">
+		<div class="events">
 			{% include list-events.html posts=paginator.posts %}
-		</article>
+		</div>
 
 		{% if paginator.total_pages > 1 %}
 			<div class="pagination">

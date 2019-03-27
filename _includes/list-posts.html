@@ -1,21 +1,18 @@
 {% for post in include.posts %}
 	<li class="blog-post">
-		{% if post.status == 'open' %}
-			<h2><a href="{{ post.url | relative_url }} ">{{ post.title }}</a></h2>
-		{% else %}
-			<h2>{{ post.title }}</h2>
-		{% endif %}
+
+		<h2><a href="{{ post.url | relative_url }} ">{{ post.title }}</a></h2>
 
 		{% include post-title.html post=post %}
+	
 		<div class="post-content">
 			{{ post.excerpt }}
 
-			{% if post.status == 'open' %}
-				<div class="button"><a href="{{ post.url | relative_url }} ">Saiba Mais</a></div>
-			{% else %}
-				<div class="deactivated"><a href="">Em Breve</a></div>
-			{% endif %}
-
+			<span class="post-date"> 
+				{% include read-time.html content=post.content %}
+			</span>
+			
+			<div class="button"><a href="{{ post.url | relative_url }}">Continue lendo</a></div>
 		</div>
 	</li>
-{% endfor %}
+ {% endfor %}

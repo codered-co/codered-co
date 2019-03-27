@@ -30,8 +30,6 @@ jekyll-archives:
 
 timezone: Etc/UTC
 
-permalink: eventos/:slug
-
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
@@ -51,9 +49,14 @@ collections:
     _hide_content: true
   collaborative_members:
     _hide_content: true
+  eventos:
+    _hide_content: true
+    output: true
+    permalink: eventos/:title
 
 paginate: 10
-paginate_path: "/eventos/:num"
+paginate_path: "/blog/:num"
+permalink: blog/:title
 
 defaults:
   -

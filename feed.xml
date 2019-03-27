@@ -1,42 +1,78 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://codered.online/feed.xml" rel="self" type="application/atom+xml" /><link href="https://codered.online/" rel="alternate" type="text/html" /><updated>2019-03-24T18:01:51+00:00</updated><id>https://codered.online/feed.xml</id><title type="html">Codered</title><subtitle>Somos uma comunidade empenhada em criar um ambiente saudável, instigante e divertido onde todos podem aprender a programar.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><entry><title type="html">Introdução ao desenvolvimento Web</title><link href="https://codered.online/eventos/introwebdev" rel="alternate" type="text/html" title="Introdução ao desenvolvimento Web" /><published>2019-03-08T00:00:00+00:00</published><updated>2019-03-08T00:00:00+00:00</updated><id>https://codered.online/eventos/introWebDev</id><content type="html" xml:base="https://codered.online/eventos/introwebdev">&lt;p&gt;HTML e CSS são a base de toda aplicação web, neste bootcamp vamos aprender de forma prática através da criação de um website o que são essas linguagens de marcação, HTML semântico, organização e estruturação de arquivos CSS e até mesmo um pouquinho de optimização de código.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://codered.online/feed.xml" rel="self" type="application/atom+xml" /><link href="https://codered.online/" rel="alternate" type="text/html" /><updated>2019-03-27T21:01:28+00:00</updated><id>https://codered.online/feed.xml</id><title type="html">Codered</title><subtitle>Somos uma comunidade empenhada em criar um ambiente saudável, instigante e divertido onde todos podem aprender a programar.</subtitle><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><entry><title type="html">O que é um Bootcamp ?</title><link href="https://codered.online/blog/o-que-e-bootcamp" rel="alternate" type="text/html" title="O que é um Bootcamp ?" /><published>2019-03-27T00:00:00+00:00</published><updated>2019-03-27T00:00:00+00:00</updated><id>https://codered.online/blog/o-que-e-bootcamp</id><content type="html" xml:base="https://codered.online/blog/o-que-e-bootcamp">&lt;p&gt;Bootcamp por definição é um termo primeiramente usado por militares americanos e reflete o rigor de um treinamento intensivo e concentrado. O conceito foi transposto para o mercado de trabalho e hoje é usado para capacitar pessoas e times de forma rápida e prática.&lt;/p&gt;
 
-&lt;h1 id=&quot;o-evento&quot;&gt;O evento&lt;/h1&gt;
+&lt;h2 id=&quot;qual-o-nosso-posicionamento-quanto-a-bootcamps-&quot;&gt;Qual o nosso posicionamento quanto a Bootcamps ?&lt;/h2&gt;
 
-&lt;p&gt;Um Bootcamp é um evento de média duração que visa a realização de uma tarefa com um objetivo almejado em um curto período de tempo. Ficou muito abstrato? Nós explicamos.&lt;/p&gt;
+&lt;p&gt;Nós da Codered acreditamos que a melhor forma de aprender é pondo a mão na massa e sujando o pé de lama. Assim faz sentido que tenhamos escolhido o modelo de bootcamps para executar nossos eventos. 
+Escolhendo tecnologias de base e avançadas como tema acreditamos sermos capazes de &lt;strong&gt;despertar a vontade de aprender&lt;/strong&gt; nas pessoas.&lt;/p&gt;
+
+&lt;h2 id=&quot;porque-participar-de-um-bootcamp-da-codered-&quot;&gt;Porque participar de um Bootcamp da Codered ?&lt;/h2&gt;
+
+&lt;p&gt;Se você é estudante da área de tecnologia, profissional ou até mesmo um curioso, participar de um bootcamp é a melhor maneira de abrir os olhos para novas tecnologias e começar a desvendar o caminho das pedras que te levará a ser um profissional bem sucedido.&lt;/p&gt;
+
+&lt;p&gt;Obtenha certificados de participação para complementar seu currículo, aprenda e faça &lt;em&gt;networking&lt;/em&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;eu-tenho-de-ser-expert-para-participar-&quot;&gt;Eu tenho de ser expert para participar ?&lt;/h2&gt;
+
+&lt;p&gt;Cada evento tem um nível recomendado de ‘bagagem’ educacional requerida do participante. Tentamos fazer com que os eventos sejam acessíveis ao maior número possível de pessoas.&lt;/p&gt;
+
+&lt;h2 id=&quot;como-participo-&quot;&gt;Como participo ?&lt;/h2&gt;
+
+&lt;p&gt;Nossos eventos são divulgados primeiro em nosso &lt;a href=&quot;https://codered.online/eventos/&quot;&gt;site&lt;/a&gt; e em seguida em nossas redes sociais. Ficar atento a ambos.&lt;/p&gt;
+
+&lt;h3 id=&quot;leituras-adicionais&quot;&gt;Leituras adicionais&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Primeiro pega-se um problema: ‘Aprender HTML e CSS’;&lt;/li&gt;
-  &lt;li&gt;Em seguida acha-se um bom instrutor: Eduardo Santos;&lt;/li&gt;
-  &lt;li&gt;E por último da-lê um local e tempo para ensinar;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.mastertech.com.br/carreira/o-que-e-um-bootcamp/&quot;&gt;O que é bootcamp&lt;/a&gt; - Para aqueles que ainda tem dúvida&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.coursereport.com/blog/coding-bootcamps-vs-traditional-education&quot;&gt;Coding Bootcamp vs Traditional Education&lt;/a&gt; - Otima matéria confrontando o estudo tradicional em faculdades com o aprendizado rápido e prático de bootcamps.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://codered.online/codigoconduta&quot;&gt;Código de conduta&lt;/a&gt; - Nosso código de boas práticas e conduta.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><summary type="html">Bootcamp por definição é um termo primeiramente usado por militares americanos e reflete o rigor de um treinamento intensivo e concentrado. O conceito foi transposto para o mercado de trabalho e hoje é usado para capacitar pessoas e times de forma rápida e prática.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://codered.online/images/blog/00-post.png" /></entry><entry><title type="html">O que é Coding Dojo ?</title><link href="https://codered.online/blog/o-que-e-coding-dojo" rel="alternate" type="text/html" title="O que é Coding Dojo ?" /><published>2019-03-27T00:00:00+00:00</published><updated>2019-03-27T00:00:00+00:00</updated><id>https://codered.online/blog/o-que-e-coding-dojo</id><content type="html" xml:base="https://codered.online/blog/o-que-e-coding-dojo">&lt;p&gt;No mundo da tecnologia da informação as novidades surgem a todo momento. Por mais que um time procure se manter atualizado sobre tudo, é extremamente importante existir um ambiente onde novas técnicas possam ser aprendidas, testadas, praticadas e compartilhadas.&lt;/p&gt;
+
+&lt;p&gt;Dojo, (pronuncia-se Dojô) é uma palavra de origem japonesa e significa “local de treinamento”. Portanto, o Coding Dojo nada mais é que do um “local de treinamento de código”, ou “local de treinamento de programação”.
+Formatos&lt;/p&gt;
+
+&lt;h2 id=&quot;existem-alguns-formatos-que-são-utilizados-para-a-realização-de-coding-dojos&quot;&gt;Existem alguns formatos que são utilizados para a realização de Coding Dojos:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Kata&lt;/strong&gt;: Nesse formato existe a figura do apresentador. Ele deve demonstrar uma solução pronta, previamente desenvolvida.
+O objetivo é que todos os participantes sejam capazes de reproduzir a solução alcançando o mesmo resultado, sendo permitido realizar interrupções para sanar dúvidas a qualquer momento;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Randori&lt;/strong&gt;: Nesse formato há a participação de todos. É proposto um problema a ser resolvido e a programação é realizada em apenas uma máquina, por pares. Para esse formato é imprescindível a utilização de TDD e passos de bebê.
+A pessoa que está codificando é o piloto, e seu par o co-piloto. A cada cinco minutos o piloto volta para a plateia e o co-piloto assume a condição de piloto. Uma pessoa da plateia passa a assumir a posição de co-piloto.
+Somente são permitidas interrupções quando todos os testes estiverem no verde. É importante notar também que é a dupla quem decide o que será feito para solucionar o problema. Todos devem entender a solução, que deve ser explicada pelo piloto e pelo co-piloto ao final de seu ciclo de implementação;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Kake&lt;/strong&gt;: É um formato semelhante ao Randori, porém há várias duplas trabalhando simultaneamente. A cada turno as duplas são trocadas, promovendo a integração entre todos os participantes do evento. Nesse formato um conhecimento mais avançado dos participantes é necessário.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;O bootcamp: ‘Introdução ao desenvolvimento Web’ ocorrerá no dia &lt;strong&gt;23 de março&lt;/strong&gt; na &lt;strong&gt;UniRedentor&lt;/strong&gt;, &lt;strong&gt;das 8 da manhã&lt;/strong&gt;, tendo uma pausa de uma hora para almoço ao meio dia, &lt;strong&gt;até às 17:00&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;vantagens&quot;&gt;Vantagens&lt;/h2&gt;
 
-&lt;h1 id=&quot;como-vai-funcionar-&quot;&gt;Como vai funcionar ?&lt;/h1&gt;
+&lt;p&gt;O Coding Dojo é um ambiente seguro para testar novas ideias, promover o networking e compartilhamento de ideias entre os membros da equipe. É muito comum empresas promoverem Dojos abertos. Dessa forma a empresa pode conhecer profissionais que possam se adequar ao seu ambiente e os profissionais também tem a oportunidade de conhecer o ambiente dessas empresas.&lt;/p&gt;
 
-&lt;p&gt;O bootcamp funciona de forma dinâmica. Primeiramente é feita uma apresentação geral do tema e em seguida o instrutor vai codificando em tempo real ao mesmo tempo que explica de forma prática conceitos da tecnologia escolhida.&lt;/p&gt;
+&lt;p&gt;O Dojo não é uma competição sobre quem resolve o problema mais rápido, ou qual solução é melhor implementada.&lt;/p&gt;
 
-&lt;p&gt;Fica a cargo do participante reproduzir o código em seu computador (o que é altamente recomendado) ou apenas observar a forma na qual o instrutor monta a aplicação.&lt;/p&gt;
+&lt;p&gt;Obviamente o conhecimento obtido durante a execução do Coding Dojo é utilizado pelos programadores nas tarefas de seu dia a dia, o que faz com que a qualidade do trabalho “real” produzido também aumente, de forma indireta, com a realização de Coding Dojos.&lt;/p&gt;
 
-&lt;p&gt;Você que vai estar codificando juntamente com o instrutor pode ficar despreocupado que teremos monitores no evento para tirar suas dúvidas e lhe ajudar a ‘desengasgar’ seu código.&lt;/p&gt;
+&lt;h2 id=&quot;valores&quot;&gt;Valores&lt;/h2&gt;
 
-&lt;p&gt;Trabalhamos também com uma metodologia de sincronia a cada uma hora. Então se você perdeu alguma coisa que o instrutor codificou, ou estava &lt;del&gt;distraído&lt;/del&gt; apenas prestando atenção na explicação, a cada uma hora o instrutor irá postar o código em um lugar onde todos terão acesso e poderão copiá-los para suas máquinas. Assim todo mundo segue o mesmo passo.&lt;/p&gt;
+&lt;p&gt;A realização de um Coding Dojo bem sucedido depende e fortalece alguns valores em todos os profissionais envolvidos. Entre eles, podemos destacar alguns:&lt;/p&gt;
 
-&lt;h1 id=&quot;pré-requisitos&quot;&gt;Pré requisitos&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Cooperação&lt;/strong&gt;: A solução para o problema proposto é construída com a cooperação de todos os participantes, o que cria um ambiente colaborativo;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Participação&lt;/strong&gt;: Todos os participantes participam da resolução do problema, o que cria um sentimento de igualdade entre todos os envolvidos. Não existem opiniões mais “importantes”;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Coragem&lt;/strong&gt;: É necessário coragem para sair da zona de conforto e enfrentar um desafio. O ambiente do Coding Dojo propicia que todos desenvolvam essa característica, trabalhando em projetos que permitem que aconteçam erros, sem estar diretamente envolvido na rotina normal de um projeto (prazo, custo, etc);&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Respeito&lt;/strong&gt;: Todos os participantes devem respeitar a solução proposta pelos demais, mesmo conhecendo maneiras diferentes de resolver o problema. Como o intuito é aprender, o respeito pelo tempo de cada participante é fundamental;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Simplicidade&lt;/strong&gt;: O Coding Dojo serve para compartilhar conhecimentos e experiências entre os participantes. Como cada participante pode estar em um nível técnico diferente, é importante que seja mantida a simplicidade tanto no problema composto como na solução implementada, de forma que todos consigam entender exatamente o que está sendo feito.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Não existem pré requisitos. Esse é um evento voltado para o público &lt;strong&gt;iniciante&lt;/strong&gt;, logo saber ligar o computador já lhe qualifica.
-Embora não existam pré requisitos intelectuais, é recomendado que você &lt;strong&gt;traga seu próprio notebook&lt;/strong&gt;. Iremos disponibilizar alguns para o uso no evento, mas eles possuem limitações de bateria.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Post adaptado do site da &lt;a href=&quot;https://www.devmedia.com.br/&quot;&gt;DevMedia&lt;/a&gt; intitulado de &lt;a href=&quot;https://www.devmedia.com.br/o-que-e-o-coding-dojo/30517&quot;&gt;O que é o Coding Dojo&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><summary type="html">No mundo da tecnologia da informação as novidades surgem a todo momento. Por mais que um time procure se manter atualizado sobre tudo, é extremamente importante existir um ambiente onde novas técnicas possam ser aprendidas, testadas, praticadas e compartilhadas.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://codered.online/images/blog/01-post.png" /></entry><entry><title type="html">O que é Hackathon ?</title><link href="https://codered.online/blog/o-que-e-hackahton" rel="alternate" type="text/html" title="O que é Hackathon ?" /><published>2019-03-27T00:00:00+00:00</published><updated>2019-03-27T00:00:00+00:00</updated><id>https://codered.online/blog/o-que-e-hackahton</id><content type="html" xml:base="https://codered.online/blog/o-que-e-hackahton">&lt;p&gt;O Hackathon é um evento que reúne programadores, designers e outros profissionais ligados ao desenvolvimento de software para uma maratona de programação, cujo objetivo é desenvolver um software que atenda a um fim específico ou projetos livres que sejam inovadores e utilizáveis.&lt;/p&gt;
 
-&lt;p&gt;E para que você fique preparado na hora do evento, não se esqueça de &lt;strong&gt;instalar o editor de código&lt;/strong&gt; de sua preferencia, como: &lt;a href=&quot;https://www.sublimetext.com/3&quot;&gt;Sublime&lt;/a&gt; ou o &lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Hackathon significa maratona de programação. O termo resulta de uma combinação das palavras inglesas “hack” (programar de forma excepcional) e “marathon” (maratona).&lt;/p&gt;
 
-&lt;p&gt;Você pode conferir o guia do que iremos fazer &lt;strong&gt;baixando &lt;a href=&quot;/images/files/Piroll.rar&quot;&gt;esses&lt;/a&gt; arquivos&lt;/strong&gt;. Também é recomendado que você &lt;strong&gt;os tenha em seu computador&lt;/strong&gt; no dia.&lt;/p&gt;
+&lt;p&gt;A maratona pode durar entre um dia ou uma semana. Nesses eventos, os participantes têm a oportunidade de concorrer a prêmios, conhecer outros profissionais da área, fazer networking, participar de um projeto colaborativo em um ambiente específico de programação.&lt;/p&gt;
 
-&lt;h1 id=&quot;inscreva-se&quot;&gt;Inscreva-se&lt;/h1&gt;
+&lt;p&gt;Os primeiros eventos desse gênero parecem ter acontecido em 1999, primeiro com os programadores do OpenBSB e depois com os participantes de uma conferência desafiados a criarem um software em Java para a empresa Sun Microsystems.&lt;/p&gt;
 
-&lt;p&gt;A inscrição tem o valor simbólico de 5R$ e será concluída mediante ao preenchimento do formulário de inscrição e ao pagamento da taxa. Para que tudo saia da forma planejada e que o você tenha acesso a uma sala confortável, serão ofertadas &lt;strong&gt;30 vagas&lt;/strong&gt; que deverão ser preenchidas até o dia &lt;strong&gt;21 de março&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;rodada-bônus&quot;&gt;Rodada BÔNUS&lt;/h1&gt;
-
-&lt;p&gt;No final do evento você participará de um quiz interativo e o melhor colocado ganhará um vale presente da &lt;a href=&quot;https://www.casadocodigo.com.br/collections/front-end-html-e-css&quot;&gt;Casa do código&lt;/a&gt; que pode ser usado para comprar e-books que complementarão e darão reforço ao conteúdo aprendido no bootcamp como: &lt;a href=&quot;https://www.casadocodigo.com.br/products/livro-css-eficiente&quot;&gt;CSS Eficiente&lt;/a&gt;, &lt;a href=&quot;https://www.casadocodigo.com.br/products/livro-web-design-responsivo&quot;&gt;Web Design Responsivo&lt;/a&gt; e até mesmo &lt;a href=&quot;https://www.casadocodigo.com.br/products/livro-html-css&quot;&gt;HTML5 e CSS3&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Não dá mole não, se inscreve &lt;strong&gt;logo&lt;/strong&gt; !&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><summary type="html">HTML e CSS são a base de toda aplicação web, neste bootcamp vamos aprender de forma prática através da criação de um website o que são essas linguagens de marcação, HTML semântico, organização e estruturação de arquivos CSS e até mesmo um pouquinho de optimização de código.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://codered.online/images/events/00-cover.png" /></entry><entry><title type="html">Introdução ao Git e Github</title><link href="https://codered.online/eventos/introgit" rel="alternate" type="text/html" title="Introdução ao Git e Github" /><published>2019-03-07T00:00:00+00:00</published><updated>2019-03-07T00:00:00+00:00</updated><id>https://codered.online/eventos/introGit</id><content type="html" xml:base="https://codered.online/eventos/introgit">&lt;p&gt;Git e Github são ferramentas indispensáveis no dia a dia de qualquer programador. Nesse bootcamp você vai entender o que são, como funcionam e praticar o seu uso de forma dinamica e bem documentada.&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><summary type="html">Git e Github são ferramentas indispensáveis no dia a dia de qualquer programador. Nesse bootcamp você vai entender o que são, como funcionam e praticar o seu uso de forma dinamica e bem documentada.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://codered.online/images/events/00-cover.png" /></entry></feed>
+&lt;p&gt;&lt;a href=&quot;https://www.significados.com.br/hackathon/&quot;&gt;Fonte&lt;/a&gt;&lt;/p&gt;</content><author><name>{&quot;name&quot;=&gt;nil, &quot;email&quot;=&gt;nil, &quot;twitter&quot;=&gt;nil}</name></author><summary type="html">O Hackathon é um evento que reúne programadores, designers e outros profissionais ligados ao desenvolvimento de software para uma maratona de programação, cujo objetivo é desenvolver um software que atenda a um fim específico ou projetos livres que sejam inovadores e utilizáveis.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://codered.online/images/blog/02-post.png" /></entry></feed>

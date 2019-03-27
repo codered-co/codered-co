@@ -5,10 +5,10 @@ description: Conheça nossos eventos.
 
 <section class="events">
 	<div class="text-container">
-		<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Post</a></p>
-		<ul class="blog-posts">
-			{% include list-posts.html posts=paginator.posts %}
-		</ul>
+
+		<article class="event-box">
+			{% include list-events.html posts=paginator.posts %}
+		</article>
 
 		{% if paginator.total_pages > 1 %}
 			<div class="pagination">

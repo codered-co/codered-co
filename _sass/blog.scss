@@ -182,6 +182,23 @@
 	a:hover {
 		background: #919295;
 		color: #fff;
+		cursor:not-allowed;
+	}
+}
+
+.waiting{
+	a{
+		color: #919295;
+		text-decoration: none;
+		border: 2px solid #919295;
+		transition: .2s ease-in-out;
+		display: inline-block;
+		padding: 16px 50px;
+		background: #fff;
+	}
+	a:hover {
+		background: #919295;
+		color: #fff;
 		cursor: wait;
 	}
 }

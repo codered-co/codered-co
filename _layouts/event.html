@@ -4,16 +4,24 @@ layout: page
 
 <section>
 	<div class="blog-post text-container">
-		<p class="editor-link"><a href="cloudcannon:collections/{{ page.path }}" class="btn"><strong>&#9998;</strong> Edit Post</a></p>
-		{% include event-title.html post=page %}
+
+		<p class="post-details">
+			<span class="post-date">
+				Data: {{ page.event_date }}
+			</span>
+		</p>
 
 		<div class="post-content">
 
 			{{ content }}
 
-			{% if event.allow_inscription == 'no' %}
+			{% if page.allow_inscription == "no" %}
 				<div class="button large">
 					<a href="{{page.inscription_form}}" target="_blank">Inscreva-se</a>
+				</div>
+			{% elsif page.allow_inscription == "waiting" %}
+				<div class="waiting large">
+					<a href="{{page.inscription_form}}" target="_blank">Aguardando período de Inscrição</a>
 				</div>
 			{% else %}
 				<div class="deactivated large">

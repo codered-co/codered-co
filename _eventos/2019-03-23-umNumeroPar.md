@@ -1,5 +1,6 @@
 ---
-title: Introdução ao desenvolvimento Web
+layout: event
+title: Um numero ímpar
 date: 08-03-2019
 event_date: 23/03/2019
 categories:

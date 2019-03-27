@@ -2,5 +2,7 @@
   link: /eventos
 - name: Quem Somos
   link: /quemsomos
+- name: Blog
+  link: /blog
 - name: contato
   link: /contato

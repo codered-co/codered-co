@@ -5,11 +5,26 @@ layout: page
 <section>
 	<div class="blog-post text-container">
 		<p class="editor-link"><a href="cloudcannon:collections/{{ page.path }}" class="btn"><strong>&#9998;</strong> Edit Post</a></p>
-		{% include post-title.html post=page %}
+		{% include event-title.html post=page %}
 
 		<div class="post-content">
 
 			{{ content }}
+
+			{% if event.allow_inscription == 'no' %}
+				<div class="button large">
+					<a href="{{page.inscription_form}}" target="_blank">Inscreva-se</a>
+				</div>
+			{% else %}
+				<div class="deactivated large">
+					<div class="deactivated"><a href="">Encerrado</a></div>
+				</div>
+			{% endif %}
+
+			<div class="instructors">
+				<div class="square-image" style="background-image: url({{page.instructor_image}})"></div>
+				<div class="instructor_name">Instrutor:&nbsp;<a href="{{page.instructor_contact}}" target="_blank">{{page.instructor_name}}</a></div>
+			</div>
 
 			<div id="disqus_thread"></div>
 

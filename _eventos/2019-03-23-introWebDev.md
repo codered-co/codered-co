@@ -8,7 +8,7 @@ categories:
   - Iniciantes
   - Frontend
   - HTML e CSS
-status: open
+status: closed
 image: /images/events/00-cover.png
 image_card: /images/events/00-card.png
 card_hexa: 32736d

@@ -1,7 +1,4 @@
-$color_white: #fff;
-$color_prime: #6ba1f3;
-$color_grey: #e2e2e2;
-$color_grey_dark: #ffffff;
+$color_white: #ffffff;
 
 .event-box{
 	padding-top: 10vh;
@@ -23,7 +20,7 @@ $color_grey_dark: #ffffff;
   a {
     color: inherit;
     &:hover {
-      color: $color_prime;
+      color: $color_white;
     }
   }
   &:hover {
@@ -96,7 +93,7 @@ $color_grey_dark: #ffffff;
     }
   }
   .description {
-	color: #fff;
+    color: #fff;
     padding: 1rem;
     padding-left: 2.5rem;
     background: #5d5671;
@@ -115,13 +112,13 @@ $color_grey_dark: #ffffff;
       font-size: 1rem;
       font-weight: 300;
       text-transform: uppercase;
-      color: $color_grey_dark;
+      color: $color_white;
       margin-top: 5px;
     }
     .read-more {
       text-align: right;
       a {
-        color: $color_prime;
+        color: $color_white;
         display: inline-block;
         font-weight:500;
         position: relative;
@@ -147,15 +144,6 @@ $color_grey_dark: #ffffff;
     margin: 1rem 0 0;
     &:first-of-type {
       margin-top: 1.25rem;
-      &:before {
-        content: "";
-        position: absolute;
-        height: 5px;
-        background: $color_prime;
-        width: 35px;
-        top: -0.75rem;
-        border-radius: 3px;
-      }
     }
   }
   &:hover {
@@ -164,6 +152,13 @@ $color_grey_dark: #ffffff;
     }
   }
 
+  .status{
+    position: absolute;
+    height: 5px;
+    width: 35px;
+    top: 5rem;
+    border-radius: 3px;
+  }
 
   @media (min-width: 640px) {
     flex-direction: row;
@@ -177,7 +172,7 @@ $color_grey_dark: #ffffff;
       &:before {
         transform: skewX(-3deg);
         content: "";
-        background: #fff;
+        background: $color_white;
         width: 30px;
         position: absolute;
         left: -10px;

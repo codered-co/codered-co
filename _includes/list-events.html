@@ -1,7 +1,5 @@
 {% for event in site.eventos %}
 
-	{% if event.status == 'open' %}
-
 	<div class="blog-card">
 		<div class="meta">
 			<div class="photo" style="background-image:url({{event.image_card}});">
@@ -14,31 +12,23 @@
 				<li class="date">
 					<a href="#">{{event.event_date}}</a>
 				</li>
-<!-- 				<li class="tags">
-					<ul>
-						<li><a href="#">Learn</a></li>
-						<li><a href="#">Code</a></li>
-						<li><a href="#">HTML</a></li>
-						<li><a href="#">CSS</a></li>
-					</ul>
-				</li> -->
 			</ul>
 		</div>
 		<div class="description" style="background: #{{event.card_hexa}};">
 			<h1><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h1>
 			<h2>{{ event.slogan }}</h2>
+
+			{% if event.status == 'open' %}
+				<span class="status" style="background: #50FF4C;"></span>
+			{% else %}
+				<span class="status" style="background: #FF463A;"></span>
+			{% endif %}
+
 			<p>{{ event.excerpt }}</p>
 			<p class="read-more">
 				<a href="{{ event.url | relative_url }}">Saiba Mais</a>
 			</p>
 		</div>
 	</div>
-
-	{% else %}
-<!-- 	<div class="event-card">
-		<h2>{{ event.title }}</h2>
-		<p>{{ event.excerpt }}</p>
-	</div> -->
-	{% endif %}
-
+	
 {% endfor %}

@@ -57,5 +57,6 @@ allow_inscription =
  - No : quando o evento ja passou
  - waiting : quando o evento ja esta aberto mas ainda nao abriu as inscriçoes
  - open : quando o evento esta aberto e aceitando inscricoes
+ - noinscription : Evento aberto ao publico
 
 files = Path para algum arquivo para download.

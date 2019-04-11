@@ -17,13 +17,6 @@
 		<div class="description" style="background: #{{event.card_hexa}};">
 			<h1><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h1>
 			<h2>{{ event.slogan }}</h2>
-
-			{% if event.status == 'open' %}
-				<span class="status" style="background: #50FF4C;"></span>
-			{% else %}
-				<span class="status" style="background: #FF463A;"></span>
-			{% endif %}
-
 			<p>{{ event.excerpt }}</p>
 			<p class="read-more">
 				<a href="{{ event.url | relative_url }}">Saiba Mais</a>

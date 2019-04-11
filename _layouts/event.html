@@ -23,6 +23,10 @@ layout: page
 				<div class="waiting large">
 					<a href="{{page.inscription_form}}" target="_blank">Aguardando período de Inscrição</a>
 				</div>
+			{% elsif page.allow_inscription == "noinscription" %}
+				<div class="deactivated large">
+					<div class="deactivated"><a href="">Esse é um evento aberto ao público</a></div>
+				</div>
 			{% else %}
 				<div class="deactivated large">
 					<div class="deactivated"><a href="">Encerrado</a></div>
@@ -31,7 +35,7 @@ layout: page
 
 			<div class="instructors">
 				<div class="square-image" style="background-image: url({{page.instructor_image}})"></div>
-				<div class="instructor_name">Instrutor:&nbsp;<a href="{{page.instructor_contact}}" target="_blank">{{page.instructor_name}}</a></div>
+				<div class="instructor_name">Instrutor/Palestrante:&nbsp;<a href="{{page.instructor_contact}}" target="_blank">{{page.instructor_name}}</a></div>
 			</div>
 
 			<div id="disqus_thread"></div>

@@ -346,6 +346,9 @@ blockquote:before {
   width: 100%;
   z-index: -1; }
 
+html > div {
+  display: none; }
+
 .staff {
   margin: 0;
   list-style: none;

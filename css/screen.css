@@ -807,7 +807,7 @@ footer {
     .blog-card .description .read-more {
       text-align: right; }
       .blog-card .description .read-more a {
-        color: #ffffff;
+        color: #0066cc;
         display: inline-block;
         font-weight: 500;
         position: relative; }
@@ -829,12 +829,6 @@ footer {
       margin-top: 1.25rem; }
   .blog-card:hover .details {
     left: 0%; }
-  .blog-card .status {
-    position: absolute;
-    height: 5px;
-    width: 35px;
-    top: 5rem;
-    border-radius: 3px; }
   @media (min-width: 640px) {
     .blog-card {
       flex-direction: row;

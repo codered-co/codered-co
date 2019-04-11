@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://codered.online/eventos/introGit</loc>
+<loc>https://codered.online/eventos/palestrahugolopes</loc>
+<lastmod>2019-03-06T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://codered.online/eventos/introgit</loc>
 <lastmod>2019-03-07T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>https://codered.online/eventos/introWebDev</loc>
+<loc>https://codered.online/eventos/introwebdev</loc>
 <lastmod>2019-03-08T00:00:00+00:00</lastmod>
 </url>
 <url>

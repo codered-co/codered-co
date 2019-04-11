@@ -6,11 +6,11 @@
 			</div>
 			<ul class="details">
 				<li class="author">
-					<img class="square-image" src="{{event.instructor_image}}">
+					<img class="square-image" src="{{event.instructor_image}}" alt="{{event.instructor_name}}">
 					<a href="{{event.instructor_contact}}" target="_blank">{{event.instructor_name}}</a>
 				</li>
 				<li class="date">
-					<a href="#">{{event.event_date}}</a>
+					<a href="javascript:void(0);">{{event.event_date}}</a>
 				</li>
 			</ul>
 		</div>
@@ -30,5 +30,5 @@
 			</p>
 		</div>
 	</div>
-	
+
 {% endfor %}

@@ -11,10 +11,8 @@ script: ./script/cibuild
 
 # branch whitelist, only for GitHub Pages
 branches:
-  only:
-  - master
-  - /^deploy-.*$/
-  - /^issue.*$/
+  except:
+  - gh-pages
 
 env:
   global:

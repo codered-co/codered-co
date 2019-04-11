@@ -10,8 +10,8 @@ categories:
   - HTML e CSS
 status: closed
 image: /images/events/00-cover.png
-image_card: /images/events/00-card.png
-card_hexa: 32736d
+image_card: /images/events/bootcamp.png
+card_hexa: 1e1f1a
 instructor_image: /images/instructors/eduardo.jpeg
 instructor_name: Eduardo Santos
 instructor_contact: https://www.linkedin.com/in/e3duardo/

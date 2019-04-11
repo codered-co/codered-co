@@ -2,4 +2,4 @@
 set -e # halt script on error
 
 JEKYLL_ENV=production bundle exec jekyll build
-bundle exec htmlproofer --assume-extension --http-status-ignore "999" --empty_alt_ignore ./_site
+# bundle exec htmlproofer --assume-extension --http-status-ignore "999" --empty_alt_ignore ./_site

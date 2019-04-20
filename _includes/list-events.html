@@ -1,27 +1,59 @@
 {% for event in site.eventos %}
 
-	<div class="blog-card">
-		<div class="meta">
-			<div class="photo" style="background-image:url({{event.image_card}});">
+	{% if event.status == 'open' %}
+
+		<h3>Eventos futuros</h3>
+
+		<div class="blog-card">
+			<div class="meta">
+				<div class="photo" style="background-image:url({{event.image_card}});">
+				</div>
+				<ul class="details">
+					<li class="author">
+						<img class="square-image" src="{{event.instructor_image}}" alt="{{event.instructor_name}}">
+						<a href="{{event.instructor_contact}}" target="_blank">{{event.instructor_name}}</a>
+					</li>
+					<li class="date">
+						<a href="javascript:void(0);">{{event.event_date}}</a>
+					</li>
+				</ul>
 			</div>
-			<ul class="details">
-				<li class="author">
-					<img class="square-image" src="{{event.instructor_image}}" alt="{{event.instructor_name}}">
-					<a href="{{event.instructor_contact}}" target="_blank">{{event.instructor_name}}</a>
-				</li>
-				<li class="date">
-					<a href="javascript:void(0);">{{event.event_date}}</a>
-				</li>
-			</ul>
+			<div class="description" style="background: #{{event.card_hexa}};">
+				<h1><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h1>
+				<h2>{{ event.slogan }}</h2>
+				<p>{{ event.excerpt }}</p>
+				<p class="read-more">
+					<a href="{{ event.url | relative_url }}">Saiba Mais</a>
+				</p>
+			</div>
 		</div>
-		<div class="description" style="background: #{{event.card_hexa}};">
-			<h1><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h1>
-			<h2>{{ event.slogan }}</h2>
-			<p>{{ event.excerpt }}</p>
-			<p class="read-more">
-				<a href="{{ event.url | relative_url }}">Saiba Mais</a>
-			</p>
+
+		<h3>Eventos que ja aconteceram</h3>
+
+	{% else %}
+		<div class="blog-card">
+			<div class="meta">
+				<div class="photo" style="background-image:url({{event.image_card}});">
+				</div>
+				<ul class="details">
+					<li class="author">
+						<img class="square-image" src="{{event.instructor_image}}" alt="{{event.instructor_name}}">
+						<a href="{{event.instructor_contact}}" target="_blank">{{event.instructor_name}}</a>
+					</li>
+					<li class="date">
+						<a href="javascript:void(0);">{{event.event_date}}</a>
+					</li>
+				</ul>
+			</div>
+			<div class="description" style="background: #{{event.card_hexa}};">
+				<h1><a href="{{ event.url | relative_url }}">{{ event.title }}</a></h1>
+				<h2>{{ event.slogan }}</h2>
+				<p>{{ event.excerpt }}</p>
+				<p class="read-more">
+					<a href="{{ event.url | relative_url }}">Saiba Mais</a>
+				</p>
+			</div>
 		</div>
-	</div>
+	{% endif %}
 
 {% endfor %}

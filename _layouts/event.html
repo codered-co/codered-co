@@ -15,7 +15,11 @@ layout: page
 
 			{{ content }}
 
-			{% if page.allow_inscription == "no" %}
+			{% if page.allow_inscription == "open" %}
+				<div class="button large">
+					<a href="{{page.inscription_form}}" target="_blank">Inscreva-se</a>
+				</div>
+			{% elsif page.allow_inscription == "no" %}
 				<div class="button large">
 					<a href="{{page.inscription_form}}" target="_blank">Inscreva-se</a>
 				</div>

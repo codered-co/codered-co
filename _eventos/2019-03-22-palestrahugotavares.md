@@ -2,7 +2,7 @@
 layout: event
 title: Hugo Tavares
 slogan: Líder do time de infraestrutura da YipitData
-date: 06-03-2019
+date: 02-03-2019
 event_date: 17/04/2019
 categories:
   - Iniciantes
@@ -16,7 +16,7 @@ instructor_image: /images/instructors/hugolopes.jpeg
 instructor_name: Hugo Tavares
 instructor_contact: https://www.linkedin.com/in/hltbra/
 inscription_form: 
-allow_inscription: noinscription
+allow_inscription: no
 files: 
 ---
 

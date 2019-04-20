@@ -2,7 +2,7 @@
 layout: event
 title: Introdução ao Dev. Web
 slogan: Entendendo a internet
-date: 08-03-2019
+date: 03-03-2019
 event_date: 23/03/2019
 categories:
   - Iniciantes

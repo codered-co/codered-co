@@ -54,7 +54,7 @@ instructor_contact = Link de rede social do instrutor
 inscription_form = Link do formulário de inscrição
 
 allow_inscription = 
- - No : quando o evento ja passou
+ - no : quando o evento ja passou
  - waiting : quando o evento ja esta aberto mas ainda nao abriu as inscriçoes
  - open : quando o evento esta aberto e aceitando inscricoes
  - noinscription : Evento aberto ao publico

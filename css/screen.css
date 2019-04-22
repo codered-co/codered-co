@@ -160,7 +160,7 @@ section {
 header {
   color: #fff;
   padding: 15px 0;
-  position: fixed;
+  position: relative;
   width: 100%;
   z-index: 9999;
   line-height: 0; }
@@ -503,7 +503,6 @@ html > div {
   padding: 30px; }
 
 .large a {
-  min-width: 85%;
   text-align: center; }
 
 .event_post {

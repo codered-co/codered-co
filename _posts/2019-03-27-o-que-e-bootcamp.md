@@ -5,7 +5,7 @@ categories:
   - Informativo
 image: /images/blog/00-post.png
 author_name: Otávio Reis Perkles
-files: 
+author_photo: /images/members/padilha.jpeg
 ---
 
 Bootcamp por definição é um termo primeiramente usado por militares americanos e reflete o rigor de um treinamento intensivo e concentrado. O conceito foi transposto para o mercado de trabalho e hoje é usado para capacitar pessoas e times de forma rápida e prática.

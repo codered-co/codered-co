@@ -11,6 +11,11 @@ layout: page
 
 			{{ content }}
 
+			<div class="instructors">
+				<div class="square-image" style="background-image: url({{page.author_photo}})"></div>
+				<div class="instructor_name">Autor :&nbsp;{{page.author_name}} </div>
+			</div>
+
 			<div id="disqus_thread"></div>
 
 			<script>
@@ -24,7 +29,6 @@ layout: page
 			<noscript>
 				Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
 			</noscript>
-
 		</div>
 	</div>
 </section>

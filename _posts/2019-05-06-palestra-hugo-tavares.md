@@ -20,7 +20,8 @@ No evento os participantes aprenderam como instalar o git em diferentes sistemas
 
 ![Almoço](/images/blog/almoco.jpeg) 
 
-GitHub 
+## GitHub 
+
 Com os conhecimento de git encapsulados na memória e  de barriga cheia os participantes partem para segunda parte do evento onde conhecem o GitHub. Cada participantes cria sua conta e um repositório teste para o evento, ali eles veem na prática como ocorre o controle de versões. 
 
 Um arquivo html é gerado  e alterado algumas vezes e os participantes devem gravar suas alterações no repositório, nesse momento as noções de “branch” e do porquê e como usá-las estava evidente aos participantes.

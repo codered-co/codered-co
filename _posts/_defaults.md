@@ -7,7 +7,6 @@ categories:
   - HTML e CSS
 image: 
 author_name: Otávio Reis Perkles
-files: 
 ---
 
 title = Nome do post no blog
@@ -19,5 +18,3 @@ categories = Usado para separar em categorias e gerar buscas e agrupamentos em c
 image = Imagem usada na Capa do evento.
 
 author_name = Nome do autor
-
-files = Path para algum arquivo para download.

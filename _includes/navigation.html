@@ -4,12 +4,14 @@
 	{% for link in site.data.navigation %}
 		{% assign class = "" %}
 		{% if link.highlight %}
-			{% assign class = class | append: " highlight" %}
+			{% assign class = class | append: "highlight" %}
 		{% endif %}
 
 		{% if link.link == page.url %}
-			{% assign class = class | append: " active" %}
+			{% assign class = class | append: "active" %}
 		{% endif %}
-		<a href="{{ link.link | relative_url }} " class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a>
+		<a href="{{ link.link | relative_url }} " class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>
+			{{ link.name }}
+		</a>
 	{% endfor %}
 </nav>

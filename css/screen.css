@@ -147,6 +147,13 @@ section {
   min-height: 85vh;
   padding-top: 8vh;
   padding-bottom: 2vh; }
+  .events h2 {
+    text-align: center; }
+  .events .middle-large {
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+    margin-bottom: 25%; }
 
 #mainHeader .container {
   max-height: 2vw; }

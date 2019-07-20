@@ -34,6 +34,15 @@ section {
     min-height: 85vh;
     padding-top: 8vh;
     padding-bottom: 2vh;
+    h2{
+    	text-align: center;
+    }
+    .middle-large{
+		display: flex;
+		justify-content: center;
+		margin-top: 25%;
+		margin-bottom: 25%;
+    }
 }
 #mainHeader{
 	.container{

@@ -3,10 +3,10 @@ left_links:
     link: /eventos
   - name: Quem Somos
     link: /quemsomos
-  - name: Contato
-    link: /contato
   - name: Código de Conduta
     link: /codigoconduta
+  - name: Contato
+    link: /contato
 right_links:
   - name:
     link: https://facebook.com/coderedsi

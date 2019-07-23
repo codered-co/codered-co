@@ -1,0 +1,29 @@
+---
+title: Café com aspas
+description: Café para desenvolvedores aspas para curiósos. .
+---
+
+<!-- <iframe src="https://anchor.fm/codered/embed/episodes/01---Indstria-4-0-e-o-programador-de-hoje-com-Guilherme-Guedes-e4n28u" height="102px" width="400px" frameborder="0" scrolling="no"></iframe> -->
+
+<section class="events">
+	<div class="text-container">
+
+		<ul class="blog-posts">
+			{% include list-podcast.html posts=paginator.posts %}
+		</ul>
+
+		{% if paginator.total_pages > 1 %}
+			<div class="pagination">
+				{% if paginator.previous_page %}
+					<a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="previous btn">&larr; Posts recentes</a>
+				{% endif %}
+
+				<span class="page_number ">{{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+				{% if paginator.next_page %}
+					<a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="next btn">Posts antigos &rarr;</a>
+				{% endif %}
+			</div>
+		{% endif %}
+	</div>
+</section>

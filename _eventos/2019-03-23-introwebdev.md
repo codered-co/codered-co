@@ -1,5 +1,5 @@
 ---
-layout: event
+layout: post
 title: Introdução ao Dev. Web
 slogan: Entendendo a internet
 date: 03-03-2019

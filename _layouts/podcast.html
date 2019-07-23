@@ -4,25 +4,13 @@ layout: default
 
 <section>
 	
-	<section class="hero event_post" style="background-image: url({{ page.image | relative_url }} )">
-		<div class="inner-hero text-container">
-			<div class="hero-text-container">
-			</div>
-		</div>
-	</section>
-
 	<div class="blog-post text-container">
 
-		{% include post-title.html post=page %}
+		{% include podcast-title.html post=page %}
 
 		<div class="post-content">
 
 			{{ content }}
-
-			<div class="instructors">
-				<div class="square-image" style="background-image: url({{page.author_photo}})"></div>
-				<div class="instructor_name">Autor :&nbsp;{{page.author_name}} </div>
-			</div>
 
 			<div id="disqus_thread"></div>
 

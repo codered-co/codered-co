@@ -1,5 +1,5 @@
 ---
-layout: event
+layout: post
 title: Hugo Tavares
 slogan: Líder do time de infraestrutura da YipitData
 date: 02-03-2019

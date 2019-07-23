@@ -1,7 +1,7 @@
 {% for podcast in site.podcasts %}
 	<li class="blog-post">
 
-		<h2><a href="{{ post.url | relative_url }} ">{{ podcast.title }}</a></h2>
+		<h2><a href="{{ podcast.url | relative_url }} ">{{ podcast.title }}</a></h2>
 
 		<span class="post-date" style="display:flex; justify-content: right;"> 
 			Data: {{podcast.date | date: "%m-%d-%Y"}} 
@@ -9,7 +9,6 @@
 
 		<div class="post-content">
 			{{ podcast.excerpt }}
-
 			
 			<div class="button"><a href="{{ podcast.url | relative_url }}">Ouça já</a></div>
 		</div>

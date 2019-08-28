@@ -1,4 +1,8 @@
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container, .text-container {
 	margin: 0 auto;
 	position: relative;
@@ -326,3 +330,31 @@ blockquote:before {
 html>div{
 	display: none;
 }
+
+
+.promo-video{
+	height: 45vw;
+	background: #201b1b;
+}iframe{
+	display: flex;
+	margin: 0 auto;
+	width:100%; 
+	height:45vw;
+}
+
+.android-bootcamp-container{
+	min-height: 45vw;
+	background: #151520;
+}
+.android-bootcamp-content{
+	display: flex;
+	text-align: justify;
+	width: 60vw;
+	color: white;
+	background: #151520;
+	align-items: center;
+	margin: 0 auto;
+	padding:5vw;
+}
+
+

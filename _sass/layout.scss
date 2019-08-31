@@ -368,3 +368,21 @@ html>div{
 		max-width:8vw;
 	}
 }
+
+.instructors-itens{
+	display: flex;
+	justify-content: center;
+	img{
+		margin:2vw;
+		max-width:8vw;
+		border-radius: 200px 200px 200px 200px;
+		-moz-border-radius: 200px 200px 200px 200px;
+		-webkit-border-radius: 200px 200px 200px 200px;
+	}
+}
+
+.diferent-color{
+	background-color: #fff;
+	color: #5e5959;
+	padding:2vw;
+}

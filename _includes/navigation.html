@@ -1,7 +1,17 @@
 <a class="nav-toggle" id="open-nav" href="javascript:void(0);">&#9776;</a>
 <nav>
+	<a href="/eventos " class="">Eventos</a>
+	<a href="/quemsomos " class="">Quem Somos</a>
+	<a href="/blog " class="">Blog</a>
+	<a href="/calendario2019 " class="">Calendario2019</a>
+	<a href="/cafecomaspas " class="">Café com aspas</a>
+	<a href="/bootcampandroid " class=""> 
+		<spam class="blinking" id="pipe">|</spam> Bootcamp Android <spam class="blinking" id="pipe">|</spam>
+	</a>
+</nav>
 
-	{% for link in site.data.navigation %}
+
+<!-- 	{% for link in site.data.navigation %}
 		{% assign class = "" %}
 		{% if link.highlight %}
 			{% assign class = class | append: "highlight" %}
@@ -13,5 +23,4 @@
 		<a href="{{ link.link | relative_url }} " class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>
 			{{ link.name }}
 		</a>
-	{% endfor %}
-</nav>
+	{% endfor %} -->

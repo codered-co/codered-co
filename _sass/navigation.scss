@@ -71,3 +71,19 @@ nav {
 				border: 0;
 			}
 		}
+
+
+#pipe{
+	font-weight: 600;
+}
+
+.blinking{
+	animation:blinkingText 1s infinite;
+}
+@keyframes blinkingText{
+	0%{		color: #ff4848;	}
+	49%{	color: #ff4848;	}
+	50%{	color: #ff4848;	}
+	99%{	color:transparent;	}
+	100%{	color: #ff4848;	}
+}

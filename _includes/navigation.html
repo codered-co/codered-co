@@ -1,30 +1,9 @@
 <a class="nav-toggle" id="open-nav" href="javascript:void(0);">&#9776;</a>
 <nav>
 
-	<a href="https://codered-co.github.io/codered-co/eventos" class="">Eventos passados</a>
-	<a href="https://codered-co.github.io/codered-co/quemsomos" class="">Quem somos</a>
-	<a href="https://codered-co.github.io/codered-co/blog" class="">Blog</a>
-	<a href="https://codered-co.github.io/codered-co/cafecomaspas"  class="">Café com aspas</a>
+	<a href="{{site.url}}/eventos" class="">Eventos passados</a>
+	<a href="{{site.url}}/quemsomos" class="">Quem somos</a>
+	<a href="{{site.url}}/blog" class="">Blog</a>
+	<a href="{{site.url}}/cafecomaspas"  class="">Café com aspas</a>
 	
 </nav>
-
-	<!--<a href="/bootcampandroid " class=""> 
-		<spam class="blinking" id="pipe">|</spam> Bootcamp Android <spam class="blinking" id="pipe">|</spam>
-	</a>
-</nav>
--->
-
-
-<!-- 	{% for link in site.data.navigation %}
-		{% assign class = "" %}
-		{% if link.highlight %}
-			{% assign class = class | append: "highlight" %}
-		{% endif %}
-
-		{% if link.link == page.url %}
-			{% assign class = class | append: "active" %}
-		{% endif %}
-		<a href="{{ link.link | relative_url }} " class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>
-			{{ link.name }}
-		</a>
-	{% endfor %} -->

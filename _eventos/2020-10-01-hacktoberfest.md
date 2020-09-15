@@ -21,7 +21,11 @@ author_name: Perkles
 files: 
 ---
 
-[Hacktoberfest](https://hacktoberfest.digitalocean.com/) é um evento organizado pela Digital Ocean para promover a colaboração em projetos open source ao redor do mundo. Durante o mês de outubro, colabore em projetos open source e ganhe uma camisa irada do evento. De graça ! Enviado **sem custos** para sua casa, em qualquer parte do Brasil. 
+[Hacktoberfest](https://hacktoberfest.digitalocean.com/) é um evento organizado pela Digital Ocean para promover a colaboração em projetos open source ao redor do mundo. 
+
+Durante o mês de outubro, colabore em projetos open source e ganhe uma camisa irada do evento. De graça ! Enviado **sem custos** para sua casa, em qualquer parte do Brasil. 
+
+<iframe width="560" height="400" src="https://www.youtube.com/embed/mll-akn8Gqs?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Nós da CodeRed iremos organizar 5 lives durante o mês de outubro falando sobre o evento e em cada live iremos presentear um participante que mostre um Pull Request em aberto com uma camisa do [GitHub](https://github.myshopify.com/)
 

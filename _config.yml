@@ -49,10 +49,6 @@ collections:
     _hide_content: true
     output: true
     permalink: eventos/:title
-  podcasts:
-    _hide_content: true
-    output: true
-    permalink: cafecomaspas/:title
 
 
 paginate: 10
